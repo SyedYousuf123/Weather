@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 1050px) {
+  #card{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container{
+    padding-left: 0;
+    padding-right:0 ;
+  }
+  #card{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #card{
+    width: 80%;
+  }
+  #WeatherImg {
+    height: 120px;
+    width: 120px;
+  }
+ /* #search{
+  width: 70%;
+ }
+ #submit{
+  width: 20%;
+ } */
+}
+@media screen and (max-width: 400px) {
+  #card{
+    width: 100%;
+  }
+#nav{
+  display: flex;
+  flex-direction: column;
+}
+#WeatherImg{
+  margin: 1em 0;
+}
+/* #submit{
+  padding: 6px 5px;
+} */
+#search{
+  width: 60%;
+ }
+ #submit{
+  width: 30%;
+ }
+.mainHeading{
+  font-size: 1.7em;
+  width: 100%;
+}
+.container{
+  padding-top: 4rem;
+}
+}
